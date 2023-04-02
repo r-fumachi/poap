@@ -8,7 +8,7 @@ import { EventsPage } from './EventsPage';
 
 export const MintersPage = () => <div> This is a MintersPage </div>;
 
-const NavigationMenu = withRouter(({ history }) => {
+const NavigationMenu = withRouter(({ history }:{history:any}) => {
   const auth = useContext(AuthContext);
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = useCallback(() => setIsOpen(false), []);

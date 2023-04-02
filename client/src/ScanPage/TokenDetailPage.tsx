@@ -22,7 +22,7 @@ export const TokenDetailPage: React.FC<
   RouteComponentProps<{
     tokenId: string;
   }>
-> = ({ location, match }) => {
+> = ({ location, match } : {location:any, match:any}) => {
   useBodyClassName('poap-app event-page');
   const [token, setToken] = useState<null | TokenInfo>(null);
   useEffect(() => {

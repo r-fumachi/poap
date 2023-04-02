@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@types/react-burger-menu": "^2.2.5",
-    "@types/react-router-dom": "^4.3.3",
+    "@types/react-router-dom": "^5.3.3",
     "@types/react-share": "^2.1.1",
     "@types/yup": "^0.26.13",
     "react-app-rewired": "^2.2.1"
