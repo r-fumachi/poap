@@ -34,7 +34,8 @@
 .poap-app {
   header {
     height: 200px;
-    background-image: url('C:\Users\ricar\OneDrive\Documents\betproof\client\src\images\bg-header-m.png');    background-repeat: no-repeat;
+    background-image: url('../../images/bg-header-m.png');    
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 
@@ -49,7 +50,7 @@
     padding: 20px 0 0;
 
     @media (min-width: $bp-sw) {
-      background-image: url('C:\Users\ricar\OneDrive\Documents\betproof\client\src\images\bg-header.png');
+      background-image: url('../../images/bg-header.png');
       padding: 0;
     }
 
@@ -64,9 +65,9 @@
       transition: all 0.5s ease-in-out;
       -webkit-backface-visibility: hidden;
 
-      background-image: url('C:\Users\ricar\OneDrive\Documents\betproof\client\src\images\bg-header-m-fixed.png');
+      background-image: url('../../images/bg-header-m-fixed.png');
       @media (min-width: $bp-sw) {
-        background-image: url('C:\Users\ricar\OneDrive\Documents\poap\client\src\images\bg-header-fixed.png');
+        background-image: url('../../images/bg-header-fixed.png');
       }
     }
 
