@@ -3,7 +3,8 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "firebase-tools": "^6.9.2"
+    "firebase-tools": "^6.9.2",
+    "sass": "^1.59.2"
   },
   "name": "poap-website",
   "version": "1.0.0",

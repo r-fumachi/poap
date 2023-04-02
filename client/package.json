@@ -12,30 +12,40 @@
     "@types/react": "16.8.16",
     "@types/react-dom": "16.8.4",
     "aos": "^2.3.4",
+    "assert": "^2.0.0",
     "auth0-js": "^9.10.2",
+    "buffer": "^6.0.3",
     "classnames": "^2.2.6",
+    "crypto-browserify": "^3.12.0",
     "ethers": "^4.0.27",
     "firebase-tools": "^6.9.2",
     "formik": "^1.5.4",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
+    "https-browserify": "^1.0.0",
+    "react": "^16.14.0",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0",
+    "react-scripts": "^5.0.1",
     "react-share": "^3.0.0",
+    "sass": "^1.59.2",
+    "scripts": "^0.1.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
     "typescript": "3.4.5",
+    "url": "^0.11.0",
     "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn build && yarn firebase deploy"
+    "start": "react-app-rewired --openssl-legacy-provider start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "browser": {
+    "assert": false
   },
   "browserslist": {
     "production": [
@@ -53,6 +63,7 @@
     "@types/react-burger-menu": "^2.2.5",
     "@types/react-router-dom": "^4.3.3",
     "@types/react-share": "^2.1.1",
-    "@types/yup": "^0.26.13"
+    "@types/yup": "^0.26.13",
+    "react-app-rewired": "^2.2.1"
   }
 }
